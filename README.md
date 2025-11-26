@@ -39,7 +39,16 @@
 npm install
 ```
 
-### 3. 启动开发服务器
+### 3. 配置 API 密钥（可选）
+为了使用 AI 功能，您需要配置 Gemini API 密钥：
+
+1. 复制 [.env.example](file:///c:/Users/88903/Desktop/jiuzhoumic/.env.example) 文件并重命名为 [.env](file:///c:/Users/88903/Desktop/jiuzhoumic/.env)
+2. 在 [.env](file:///c:/Users/88903/Desktop/jiuzhoumic/.env) 文件中填入您的 Gemini API 密钥：
+   ```
+   VITE_API_KEY=your_actual_api_key_here
+   ```
+
+### 4. 启动开发服务器
 ```bash
 npm run dev
 ```
